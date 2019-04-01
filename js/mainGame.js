@@ -102,8 +102,8 @@ function fireAnimation(obj){
                 {
                     keys:[0, 1],
                     values:[
-                            { z : obj.position.z + 0, y : 0 },
-                            { z : obj.position.z - 100, y : 0 }
+                            { z : obj.position.z + 0},
+                            { z : obj.position.z - 100}
                             ],
                     target:obj.position
                 },
